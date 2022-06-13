@@ -9321,7 +9321,7 @@ s.x=J.l(J.l(r.h(f,i),m),"hash")
 s.y=J.l(J.l(r.h(f,i),m),"ext")
 s.z=J.l(J.l(r.h(f,i),m),"mime")
 s.Q=J.l(J.l(r.h(f,i),m),"size")
-s.ch=B.c.a7("http://51.195.47.27:1337",J.l(J.l(r.h(f,i),m),"url"))
+s.ch=B.c.a7("https://ole.tn",J.l(J.l(r.h(f,i),m),"url"))
 s.cx=J.l(J.l(r.h(f,i),m),"previewUrl")
 s.cy=J.l(J.l(r.h(f,i),m),"provider")
 s.db=J.l(J.l(r.h(f,i),m),"provider_metadata")
@@ -50682,7 +50682,7 @@ r.e=J.l(J.l(J.l(J.l(J.l(J.l(J.l(n.h(a,q),p),o),q),"phase"),o),q),"libelle")
 r.c=J.l(n.h(a,q),"description")
 r.x=J.l(J.l(n.h(a,q),"Image"),o)!=null?"Yes":"No"
 r.d=J.l(n.h(a,q),"createdAt")
-if(r.x==="Yes")for(n=J.aM(J.l(J.l(n.h(a,q),"Image"),o)),s=r.y;n.t();)s.push(B.c.a7("http://51.195.47.27:1337",J.l(J.l(J.l(J.l(n.gF(n),q),"formats"),"small"),"url")))},
+if(r.x==="Yes")for(n=J.aM(J.l(J.l(n.h(a,q),"Image"),o)),s=r.y;n.t();)s.push(B.c.a7("https://ole.tn",J.l(J.l(J.l(J.l(n.gF(n),q),"formats"),"small"),"url")))},
 d4(){var s=A.D(t.N,t.z)
 s.m(0,"type",this.b)
 s.m(0,"description",this.c)
@@ -50723,7 +50723,7 @@ q.f=s==null?"--":s
 q.y=n.h(a,p)!=null?n.h(a,p):"-"
 q.r=q.Q="-"
 r=n.h(a,o)!=null?J.l(n.h(a,o),"data")!=null?J.l(n.h(a,o),"data"):null:null
-if(r!=null)q.z=new A.i6(B.c.a7("http://51.195.47.27:1337",J.l(J.l(r,"attributes"),"url")))},
+if(r!=null)q.z=new A.i6(B.c.a7("https://ole.tn",J.l(J.l(r,"attributes"),"url")))},
 gv9(){return this.b},
 gwg(){return this.c},
 gtt(){return this.d},
@@ -51026,7 +51026,7 @@ return r},
 gc1(a){return this.c},
 gC2(){return this.r}}
 A.Op.prototype={
-O7(){var s=null,r=A.D7(A.aNP("http://51.195.47.27:1337/api/",5e6,5e6)),q=r.eA$
+O7(){var s=null,r=A.D7(A.aNP("https://ole.tn/api/",5e6,5e6)),q=r.eA$
 q.G(q,A.aTS(A.aTu()).gXW())
 q.G(q,new A.xv(new A.a84(A.b(this.d.c,"_concrete").L8(0,"token",t.z)),s,s,s,s,s))
 return r},
@@ -51086,7 +51086,7 @@ A.a8a.prototype={
 $1(a){this.a.$1(a)},
 $S:2}
 A.cQ.prototype={
-yH(){var s=null,r=A.D7(A.aNP("http://51.195.47.27:1337/api/",5e6,5e6)),q=r.eA$
+yH(){var s=null,r=A.D7(A.aNP("https://ole.tn/api/",5e6,5e6)),q=r.eA$
 q.G(q,A.aTS(A.aTu()).gXW())
 q.G(q,new A.xv(new A.a83(A.b(this.d.c,"_concrete").L8(0,"token",t.z)),s,s,s,s,s))
 return r},
