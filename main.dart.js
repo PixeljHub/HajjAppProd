@@ -51188,7 +51188,7 @@ o=t.N
 m=J
 l=J
 s=3
-return A.x(n.te("http://102.219.178.17:1337/api/phases",A.ah(["data",A.ah(["order",1,"users",null,"libelle","\u062a\u0648\u062c\u064a\u0647"],o,t.X)],o,t.xE),t.z),$async$Ac)
+return A.x(n.te("https://ole.tn/api/phases",A.ah(["data",A.ah(["order",1,"users",null,"libelle","\u062a\u0648\u062c\u064a\u0647"],o,t.X)],o,t.xE),t.z),$async$Ac)
 case 3:q=m.l(l.l(b.a,"data"),"id")
 s=1
 break
@@ -51202,7 +51202,7 @@ o=t.N
 m=J
 l=J
 s=3
-return A.x(n.te("http://102.219.178.17:1337/api/phases",A.ah(["data",A.ah(["order",2,"users",null,"libelle","\u062a\u0633\u0643\u064a\u0646"],o,t.X)],o,t.xE),t.z),$async$v0)
+return A.x(n.te("https://ole.tn/api/phases",A.ah(["data",A.ah(["order",2,"users",null,"libelle","\u062a\u0633\u0643\u064a\u0646"],o,t.X)],o,t.xE),t.z),$async$v0)
 case 3:q=m.l(l.l(b.a,"data"),"id")
 s=1
 break
@@ -51226,7 +51226,7 @@ m=m.gk(m)}m=A.ah(["phase",a,"guide",null,"transport",n,"status","Not started","h
 n=m}l=J
 k=J
 s=3
-return A.x(o.te("http://102.219.178.17:1337/api/hamlas",A.ah(["data",n],t.N,t.a),t.z),$async$Ad)
+return A.x(o.te("https://ole.tn/api/hamlas",A.ah(["data",n],t.N,t.a),t.z),$async$Ad)
 case 3:q=l.l(k.l(c.a,"data"),"id")
 s=1
 break
@@ -51262,7 +51262,7 @@ o=l
 case 4:j=J
 i=J
 s=8
-return A.x(k.te("http://102.219.178.17:1337/api/hamlas",A.ah(["data",o],t.N,t.xE),t.z),$async$qX)
+return A.x(k.te("https://ole.tn/api/hamlas",A.ah(["data",o],t.N,t.xE),t.z),$async$qX)
 case 8:q=j.l(i.l(b.a,"data"),"id")
 s=1
 break
