@@ -55244,33 +55244,40 @@ A.aMP.prototype={
 $1(a){},
 $S:24}
 A.NU.prototype={
-dm(a){var s,r,q,p,o,n,m=null,l=a.e[0].cy,k=l.cx
+dm(a){var s,r,q,p,o,n,m,l=null,k=a.e[0].cy,j=k.cx
+j.toString
+j=j==="\u0623\u0646\u062b\u0649"?B.N_:B.tf
+k=k.x
 k.toString
-k=k==="\u0623\u0646\u062b\u0649"?B.N_:B.tf
-l=l.x
-l.toString
 s=t.p
-l=A.bs(A.aB(A.a3(A.a([k,B.af,A.aC(l,m,m,m,m,m,m,m,B.bg,m,m,m)],s),B.l,B.w,B.i),m,m))
-k=a.e[0].cy
-r=k.z
-r.toString
-r=A.bs(A.aB(A.aC(r,m,m,m,m,m,m,m,m,m,m,m),m,m))
-q=a.a
+k=A.bs(A.aB(A.a3(A.a([j,B.af,A.aC(k,l,l,l,l,l,l,l,B.bg,l,l,l)],s),B.l,B.w,B.i),l,l))
+j=a.e[0]
+r=j.cy
+q=r.z
 q.toString
-q=A.bs(A.aB(A.aC(q,m,m,m,m,m,m,m,m,m,m,m),m,m))
-p=k.dy
+q=A.bs(A.aB(A.aC(q,l,l,l,l,l,l,l,l,l,l,l),l,l))
+p=a.a
 p.toString
-p=A.bs(A.aB(A.aC(p,m,m,m,m,m,m,m,m,m,m,m),m,m))
-o=k.cy
+p=A.bs(A.aB(A.aC(p,l,l,l,l,l,l,l,l,l,l,l),l,l))
+o=r.dy
 o.toString
-o=A.bs(A.aB(A.ap(m,A.aC(o,m,m,m,m,m,m,m,B.aef,m,m,m),B.k,m,m,B.Km,m,m,m,B.e2,B.e2,m,m,m),m,m))
-k=k.db
-k.toString
-k/=10
-n=new A.C3(k,50,4,!0,A.aC(B.d.j(k*100)+"%",m,m,m,m,m,m,m,B.ae0,m,m,m),B.N1,m)
-n.y=B.a7_
-if(k<0||k>1)A.Q(A.bw("Percent value must be a double between 0.0 and 1.0, but it's "+A.e(k)))
-return A.pf(A.a([l,r,q,p,o,A.bs(A.aB(n,m,m)),A.bs(A.aB(A.aA(A.a([A.bN(!1,m,!0,A.ap(m,B.fR,B.k,m,m,B.bz,m,40,m,m,m,m,m,40),m,!0,m,m,m,m,m,m,m,m,m,m,m,new A.a8c(a),m,m,m,m,m)],s),B.l,B.av,B.i,m),m,m))],t.d),new A.a8d(a))}}
+o=A.bs(A.aB(A.aC(o,l,l,l,l,l,l,l,l,l,l,l),l,l))
+j=j.b
+j.toString
+j=j==="Not started"
+if(j)n="\u0644\u0645 \u062a\u0628\u062f\u0627 \u0628\u0639\u062f"
+else{n=r.cy
+n.toString}n=A.bs(A.aB(A.ap(l,A.aC(n,l,l,l,l,l,l,l,B.aef,l,l,l),B.k,l,l,B.Km,l,l,l,B.e2,B.e2,l,l,l),l,l))
+if(j)m=0
+else{m=r.db
+m.toString
+m/=10}if(j)j="0"
+else{j=r.db
+j.toString
+j=B.d.j(j/10*100)+"%"}j=new A.C3(m,50,4,!0,A.aC(j,l,l,l,l,l,l,l,B.ae0,l,l,l),B.N1,l)
+j.y=B.a7_
+if(m<0||m>1)A.Q(A.bw("Percent value must be a double between 0.0 and 1.0, but it's "+A.e(m)))
+return A.pf(A.a([k,q,p,o,n,A.bs(A.aB(j,l,l)),A.bs(A.aB(A.aA(A.a([A.bN(!1,l,!0,A.ap(l,B.fR,B.k,l,l,B.bz,l,40,l,l,l,l,l,40),l,!0,l,l,l,l,l,l,l,l,l,l,l,new A.a8c(a),l,l,l,l,l)],s),B.l,B.av,B.i,l),l,l))],t.d),new A.a8d(a))}}
 A.a8d.prototype={
 $1(a){var s,r,q=null
 $.I()
