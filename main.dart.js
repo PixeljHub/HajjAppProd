@@ -54885,7 +54885,8 @@ $0(){var s="GetStorage"
 A.b2(s).E(0,"token")
 A.b2(s).E(0,"user")
 A.b2(s).E(0,"isAuthenticated")
-A.b1a($.D(),new A.uc(null),new A.Fu(),t.z)},
+A.b1a($.D(),new A.uc(null),new A.Fu(),t.z)
+window.location.reload()},
 $S:0}
 A.agE.prototype={
 $0(){},
@@ -57677,31 +57678,31 @@ j.toString
 j=j==="\u0623\u0646\u062b\u0649"?B.ND:B.tN
 s=t.p
 k=A.bb(A.af(A.Y(A.a([j,B.bf,A.a8(B.d.a0(J.dV(B.c.gK(J.ao(k.y).split(" "))," "),B.c.gU(J.ao(a.f[0].dy.y).split(" "))),l,l,l,l,l,l,l,B.dw,l,l,l)],s),B.n,B.G,B.i),l,l))
-j=a.f[0]
-r=j.dy
-q=r.Q
-q.toString
-q=A.bb(A.af(A.a8(q,l,l,l,l,l,l,l,l,l,l,l),l,l))
-p=a.a
-p.toString
-p=A.bb(A.af(A.a8(p,l,l,l,l,l,l,l,l,l,l,l),l,l))
-o=r.fr
+j=a.f[0].dy.Q
+j.toString
+j=A.bb(A.af(A.a8(j,l,l,l,l,l,l,l,l,l,l,l),l,l))
+r=a.e
+r.toString
+r=A.bb(A.af(A.a8(B.f.k(r),l,l,l,l,l,l,l,l,l,l,l),l,l))
+q=a.f[0]
+p=q.dy
+o=p.fr
 o.toString
 o=A.bb(A.af(A.a8(o,l,l,l,l,l,l,l,l,l,l,l),l,l))
-j=j.b==="Not started"
-if(j)n="\u0644\u0645 \u062a\u0628\u062f\u0627 \u0628\u0639\u062f"
-else{n=r.db
+q=q.b==="Not started"
+if(q)n="\u0644\u0645 \u062a\u0628\u062f\u0627 \u0628\u0639\u062f"
+else{n=p.db
 n.toString}n=A.bb(A.af(A.ak(l,A.a8(n,l,l,l,l,l,l,l,B.afk,l,l,l),B.j,l,l,B.L4,l,l,l,B.fc,B.fc,l,l,l),l,l))
-if(j)m=0
-else{m=r.dx
+if(q)m=0
+else{m=p.dx
 m.toString
-m/=10}if(j)j="0"
-else{j=r.dx
-j.toString
-j=B.e.k(j/10*100)+"%"}j=new A.CQ(m,50,4,!0,A.a8(j,l,l,l,l,l,l,l,B.af6,l,l,l),B.NF,l)
-j.y=B.a84
+m/=10}if(q)q="0"
+else{q=p.dx
+q.toString
+q=B.e.k(q/10*100)+"%"}q=new A.CQ(m,50,4,!0,A.a8(q,l,l,l,l,l,l,l,B.af6,l,l,l),B.NF,l)
+q.y=B.a84
 if(m<0||m>1)A.P(A.bO("Percent value must be a double between 0.0 and 1.0, but it's "+A.e(m)))
-return A.ke(A.a([k,q,p,o,n,A.bb(A.af(j,l,l)),A.bb(A.af(A.ax(A.a([A.b9(!1,l,!0,A.ak(l,B.eb,B.j,l,l,B.bi,l,40,l,l,l,l,l,40),l,!0,l,l,l,l,l,l,l,l,l,l,l,new A.aaz(a),l,l,l,l,l),A.b9(!1,l,!0,A.ak(l,B.hf,B.j,l,l,B.bi,l,40,l,l,l,l,l,40),l,!0,l,l,l,l,l,l,l,l,l,l,l,new A.aaA(a),l,l,l,l,l)],s),B.n,B.aC,B.i,l),l,l))],t.d),new A.aaB(a))}}
+return A.ke(A.a([k,j,r,o,n,A.bb(A.af(q,l,l)),A.bb(A.af(A.ax(A.a([A.b9(!1,l,!0,A.ak(l,B.eb,B.j,l,l,B.bi,l,40,l,l,l,l,l,40),l,!0,l,l,l,l,l,l,l,l,l,l,l,new A.aaz(a),l,l,l,l,l),A.b9(!1,l,!0,A.ak(l,B.hf,B.j,l,l,B.bi,l,40,l,l,l,l,l,40),l,!0,l,l,l,l,l,l,l,l,l,l,l,new A.aaA(a),l,l,l,l,l)],s),B.n,B.aC,B.i,l),l,l))],t.d),new A.aaB(a))}}
 A.aaB.prototype={
 $1(a){var s,r,q=null
 $.D()
@@ -60687,8 +60688,7 @@ q.xH(0,"token",s.h(a,"jwt"))
 q.xH(0,"user",s.h(a,"user"))
 A.b1a($.D(),new A.atD(),null,t.z)
 r.dx.saU(0,"")
-r.dy.saU(0,"")
-window.location.reload()},
+r.dy.saU(0,"")},
 $S:2}
 A.atD.prototype={
 $0(){return B.uj},
