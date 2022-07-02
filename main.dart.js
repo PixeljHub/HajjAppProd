@@ -55958,8 +55958,8 @@ i=$.D()
 A.lh()
 m=A.hl(i,20,t.S)
 l=""
-if(J.f(n,"admin"))l="users?populate=*&filters[user_roles]=1&start="+a+"&limit="+A.e(m)+"&sort[group][id]=DESC"
-else l="users?filters[bureau]="+A.e(n)+"&populate=*&filters[user_roles]=1&start="+a+"&limit="+A.e(m)+"&sort[group][id]=DESC"
+if(J.f(n,"admin"))l="users?populate=*&filters[user_roles]=1&start="+a+"&limit="+A.e(m)+u.o
+else l="users?filters[bureau]="+A.e(n)+"&populate=*&filters[user_roles]=1&start="+a+"&limit="+A.e(m)+u.o
 s=6
 return A.r(new A.c4(l,null,null,A.b2("GetStorage")).cR(0),$async$hL)
 case 6:k=e
