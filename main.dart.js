@@ -51332,7 +51332,7 @@ gc5(a){return this.a}}
 A.dj.prototype={
 dI(a){var s,r,q=this,p="-",o="arabicName",n="latinName",m="nationality",l="phase",k=J.ac(a)
 q.a=k.h(a,"nummat")
-if(k.h(a,"group")!=null)q.Q=J.j(k.h(a,"group"),"group_id")
+if(k.h(a,"group")!=null)q.Q=J.ao(J.j(k.h(a,"group"),"id"))
 else q.Q=p
 q.dx=!1
 q.fr=k.h(a,"id")
